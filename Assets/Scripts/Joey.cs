@@ -13,9 +13,9 @@ public class Joey : MonoBehaviour
         _rigidbody2D = GetComponent<Rigidbody2D>();  
     }
     void Start()
-    {
+    { 
         _startPosition = _rigidbody2D.position; 
-       _rigidbody2D.isKinematic = true; 
+        _rigidbody2D.isKinematic = true; 
     }
 
     void OnMouseDown() 
